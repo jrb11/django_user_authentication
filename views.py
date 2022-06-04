@@ -16,6 +16,7 @@ def loginuser(request):
     if request.method == "POST":
         username = request.POST.get('username')
         password = request.POST.get('password')
+        # For coding verification
         print(username , password)
         
         # check user authentication
